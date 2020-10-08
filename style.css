@@ -1,0 +1,232 @@
+.{
+	margin: 0px;
+	padding: 0px;
+}
+.page
+{
+	height: 95vh;
+	width: 100%;
+	background-image: url(nature1.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	overflow-x: hidden;
+}
+.track
+{
+	height: 100px;
+	width: 5000%;
+	display: block;
+	background-image: url(track12.jpg);
+	position: absolute;
+	bottom: -1;
+	left: 0;
+	right: 0;
+	z-index: 12;
+	background-repeat: repeat-x; 
+	animation: track12 5s liner infinite;
+
+}
+@keyframes track12
+{
+	200%
+	{
+		transform: translateX(-3400px);
+	}
+
+}
+body
+{ 
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-position: center;
+	color: white;
+	font-family: Arial;
+}
+.navbar-brand>img {
+   max-height: 100%;
+   height: 100%;
+   width: auto;
+   margin: 0 auto;
+
+
+   /* probably not needed anymore, but doesn't hurt */
+   -o-object-fit: contain;
+   object-fit: contain; 
+
+}
+.disp-none{
+	display:none !important;
+}
+
+.login-box
+{
+max-width: 100px;
+float: none;
+margin: 150px auto;	
+}
+h2{
+	font-size: 50px;
+	color: white;
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+.col-md-5{
+	background: rgba(0,0,0,0.5);
+	margin-top: 80px;
+}
+.label{
+	font-size: 20px;
+	font-weight: normal;
+}
+.input-group{
+	margin-top: 10px;
+	margin-bottom: 20px;
+
+}
+.txt-blk{
+	color:#000!important;
+}
+.input-group-addon{
+	background: transparent;
+	border-radius: 0px;
+	border: 0px;
+	border-bottom: 1px solid white;
+	font-size: 18px;
+	color: gray;
+	font-color:black;
+}
+.form-control{
+	background: transparent;
+	border-radius: 0px;
+	border: 0px;
+	border-bottom: 1px solid white;
+	padding: 15px;
+	color: white;
+	font-size: 21px; 
+}
+input[type="checkbox"]
+{
+	width: 15px;
+	height: 15px;
+}
+small{
+	font-size: 18px;
+	/*color: black;*/
+}
+p{
+	font-size: 18px;
+	/*color: black;*/
+}
+.btn-default{
+	border-radius: 0px;
+	width: 100px;
+	font-size:20px; 
+	margin-top:20px;
+	margin-bottom: 30px;
+}
+.btn-default:hover{
+	background-color: 708090;
+}
+
+/*ul
+{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+
+}
+ul li
+{
+	float: left;
+	width: 150px;
+	height:40px;
+	background-color: 000080;  
+	opacity: .8;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+	margin-right: 2px;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	display: block; 
+}
+ul li a:hover
+{
+	background-color: 9400D3;
+}
+ul li ul li{
+	display: none;
+}
+ul li:hover ul li{
+	display: block;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}*/
+#success_message{ display: none;}
+
+
+.col-md-4 control-label{
+
+}
